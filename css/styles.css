@@ -1,10 +1,12 @@
 /* GENERAL */
 .josefin-slab {
-
+  font-family: 'Josefin Slab', serif;
+  /* optional */
+  font-weight: bolder;
 }
 
 .text-orange {
-
+  color: #b4682f;
 }
 
 .text-gray {

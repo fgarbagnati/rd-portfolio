@@ -1,14 +1,18 @@
 /* GENERAL */
 .josefin-slab {
+  font-family: 'Josefin Slab', serif;
+}
 
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-orange {
-
+  color: #b4682f;
 }
 
 .text-gray {
-
+  color: #7a7979;
 }
 
 /* HEADER */
@@ -23,12 +27,20 @@
 
 /* LIST SECTION */
 #list-section {
+  width: 25%;
+  margin: 0 auto;
 
 }
 
 /* ABOUT */
 #about {
+  background-color: #9a6d4a;
+}
 
+#about p {
+  color: #ffffff;
+  width: 40%;
+  margin: 0 auto;
 }
 
 /* CONTACT */

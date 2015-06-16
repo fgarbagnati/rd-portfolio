@@ -45,6 +45,11 @@
 
 /* CONTACT */
 #contact {
-  width: 55%;
+  background-color: #bbb1aa;
+  margin-top: -20px;
+}
+
+#contact form {
   margin: 20px auto 20px 150px;
+  width: 55%;
 }

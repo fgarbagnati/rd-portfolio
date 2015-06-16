@@ -64,16 +64,16 @@
     </div>
 
     <div id="contact">
-      <form action="MAILTO:f.g.garbagnati@gmail.com" method="post" enctype="text/plain">
+      <form method="post"  name="emailform" action="form-to-email.php">
         <label for="name">Name:</label>
-        <input type="text" class="form-control" id="name">
+        <input type="text" class="form-control" name="name">
         <label for="email">Email Address:</label>
-        <input type="text" class="form-control" id="email">
+        <input type="text" class="form-control" name="email">
         <label for="company">Company:</label>
-        <input type="text" class="form-control" id="company">
-        <label for="inquiry">How can I help you:</label>
-        <input type="textarea" class="form-control" id="inquiry">
-        <input type="submit" value="Send" class="btn btn-default">
+        <input type="text" class="form-control" name="company">
+        <label for="message">How can I help you:</label><br>
+        <textarea name="message" class="form-control"></textarea><br>
+        <input type="submit" name='submit' value="Send" class="btn btn-default">
       </form>
     </div>
   </body>

@@ -16,8 +16,10 @@
 }
 
 /* HEADER */
-#header {
-
+#header #hand {
+  width: 35px;
+  height: 35px;
+  position: absolute;
 }
 
 /* RECENT WORK */
@@ -25,7 +27,7 @@
 
 }
 
-/* LIST SECTION */
+/* LIST SECTION */ /* PROCESS! */
 #list-section {
   width: 25%;
   margin: 0 auto;

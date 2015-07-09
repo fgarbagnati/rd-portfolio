@@ -69,8 +69,15 @@
 
 /* PROCESS */
 #process {
+  height: 925px;
+  background-color: #bbb1aa;
+  position: static;
+}
+
+#process .text {
   width: 25%;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 /* ABOUT */

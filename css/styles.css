@@ -47,12 +47,24 @@
   position: absolute;
   left: 50%;
   margin-left: -50px;
-  bottom: 75px;
+  bottom: 125px;
 }
 
 /* RECENT WORK */
 #recent-work {
+  height: 275px;
+}
 
+#recent-work p {
+  margin-top: 50px;
+}
+
+#recent-work img {
+  height: 124px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  margin: 25px auto 25px -75px;
 }
 
 /* LIST SECTION */ /* PROCESS! */

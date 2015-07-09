@@ -61,6 +61,14 @@
   margin-top: 50px;
 }
 
+#recent-work img {
+  height: 124px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+}
+
 /* LIST SECTION */ /* PROCESS! */
 #list-section {
   width: 25%;

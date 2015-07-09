@@ -19,6 +19,10 @@
   color: #7a7979;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 /* HEADER */
 #header .filler {
   background-color: #ffffff;
@@ -82,14 +86,21 @@
 
 /* ABOUT */
 #about {
+  height: 350px;
   background-color: #9a6d4a;
+  border: 5px solid black;
 }
 
-#about p {
-  color: #ffffff;
+#about .text {
   width: 40%;
   margin: 0 auto;
+  padding: 25px 0;
 }
+
+/*#about p {
+  width: 40%;
+  margin: 0 auto;
+}*/
 
 /* CONTACT */
 #contact {

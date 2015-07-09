@@ -70,9 +70,8 @@
 /* PROCESS */
 #process {
   height: 950px;
+  background-color: #bbb1aa;
   border: 5px solid black;
-  /*width: 25%;*/
-  /*margin: 0 auto;*/
 }
 
 #process .text {

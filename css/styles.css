@@ -86,14 +86,14 @@
 
 /* ABOUT */
 #about {
-  height: 350px;
+  height: 375px;
   background-color: #9a6d4a;
 }
 
 #about .text {
   width: 550px;
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 50px 0;
   position: relative;
 }
 
@@ -102,7 +102,7 @@
   height: 281px;
   position: absolute;
   right: -130px;
-  bottom: -20px;
+  bottom: -30px;
 }
 
 /*#about p {

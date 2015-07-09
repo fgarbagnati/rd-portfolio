@@ -52,7 +52,13 @@
 
 /* RECENT WORK */
 #recent-work {
+  height: 300px;
 
+  border: 5px solid black;
+}
+
+#recent-work p {
+  margin-top: 50px;
 }
 
 /* LIST SECTION */ /* PROCESS! */

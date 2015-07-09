@@ -69,6 +69,11 @@
 
 /* PROCESS */
 #process {
+  /*width: 25%;*/
+  /*margin: 0 auto;*/
+}
+
+#process .text {
   width: 25%;
   margin: 0 auto;
 }

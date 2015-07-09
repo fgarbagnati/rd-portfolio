@@ -1,4 +1,8 @@
 /* GENERAL */
+#container {
+  width: 100%;
+}
+
 .josefin-slab {
   font-family: 'Josefin Slab', serif;
 }
@@ -16,10 +20,34 @@
 }
 
 /* HEADER */
-#header #hand {
+#header .filler {
+  background-color: #ffffff;
+  height: 75px;
+}
+
+#header .nav {
+  height: 275px;
+  background-color: #bbb1aa;
+}
+
+#header ul {
+  margin-top: 50px;
+}
+
+#hand {
   width: 35px;
   height: 35px;
   position: absolute;
+  left: 50%;
+  margin-left: -17px;
+  margin-top: -17px;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 75px;
 }
 
 /* RECENT WORK */

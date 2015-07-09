@@ -95,6 +95,15 @@
   width: 550px;
   margin: 0 auto;
   padding: 25px 0;
+  position: relative;
+}
+
+#portrait {
+  width: 425px;
+  height: 281px;
+  position: absolute;
+  right: -130px;
+  bottom: -20px;
 }
 
 /*#about p {

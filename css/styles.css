@@ -71,12 +71,13 @@
 #process {
   height: 950px;
   background-color: #bbb1aa;
-  border: 5px solid black;
+  position: static;
 }
 
 #process .text {
   width: 25%;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 /* ABOUT */

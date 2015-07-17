@@ -28,6 +28,10 @@ body {
 }
 
 /* HEADER */
+#header {
+  position: relative;
+}
+
 #header .filler {
   background-color: #ffffff;
   height: 75px;
@@ -55,7 +59,7 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -50px;
-  bottom: 125px;
+  bottom: 50px;
 }
 
 /* RECENT WORK */

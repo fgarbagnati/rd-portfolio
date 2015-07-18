@@ -1,6 +1,22 @@
 /* GENERAL */
-body {
-  /*background-color: #bbb1aa;*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.skrollr-desktop body {
+  height: 100% !important;
+}
+
+.parallax-image-wrapper {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 #container {

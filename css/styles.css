@@ -78,7 +78,10 @@ html, body {
   margin-top: 50px;
 }
 
-
+#header ul li a {
+  color: #b4682f;
+  text-decoration: none;
+}
 
 #hand {
   width: 35px;

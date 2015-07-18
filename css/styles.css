@@ -62,6 +62,7 @@ html, body {
 #header .background img {
   height: 275px;
   z-index: 10;
+  pointer-events: none;
 }
 
 #header .nav {
@@ -76,6 +77,8 @@ html, body {
 #header ul {
   margin-top: 50px;
 }
+
+
 
 #hand {
   width: 35px;

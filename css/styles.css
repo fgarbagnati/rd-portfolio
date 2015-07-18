@@ -27,6 +27,13 @@ body {
   color: #ffffff;
 }
 
+.background img {
+  width: 100%;
+  position: relative;
+  opacity: 0.2;
+  z-index: 10;
+}
+
 /* HEADER */
 #header {
   position: relative;
@@ -38,11 +45,7 @@ body {
 }
 
 #header .background img {
-  position: relative;
   height: 275px;
-  width: 100%;
-  opacity: 0.2;
-  z-index: 10;
 }
 
 #header .nav {

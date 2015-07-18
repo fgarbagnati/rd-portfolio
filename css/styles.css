@@ -31,7 +31,6 @@ body {
   width: 100%;
   position: relative;
   opacity: 0.2;
-  z-index: 10;
 }
 
 /* HEADER */
@@ -46,6 +45,7 @@ body {
 
 #header .background img {
   height: 275px;
+  z-index: 10;
 }
 
 #header .nav {
@@ -101,13 +101,22 @@ body {
 #process {
   height: 925px;
   background-color: #bbb1aa;
-  position: static;
+  position: relative;
+}
+
+#process .background img {
+  height: 925px;
 }
 
 #process .text {
-  width: 25%;
-  margin: 0 auto;
+  z-index: 10;
+  width: 325px;
+  /*margin: 0 auto;*/
   padding: 50px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -163px;
 }
 
 /* ABOUT */

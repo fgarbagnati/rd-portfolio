@@ -1,0 +1,196 @@
+// Place all the styles related to the mailer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.skrollr-desktop body {
+  height: 100% !important;
+}
+
+.parallax-image-wrapper {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#container {
+  width: 100%;
+}
+
+.josefin-slab {
+  font-family: 'Josefin Slab', serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-orange {
+  color: #b4682f;
+}
+
+.text-gray {
+  color: #7a7979;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.background img {
+  width: 100%;
+  position: relative;
+  opacity: 0.2;
+}
+
+/* HEADER */
+#header {
+  position: relative;
+}
+
+#header .filler {
+  background-color: #ffffff;
+  height: 75px;
+}
+
+#header .background img {
+  height: 275px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+#header .nav {
+  height: 275px;
+  width: 100%;
+  background-color: #bbb1aa;
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+
+#header ul {
+  margin-top: 50px;
+}
+
+#header ul li a {
+  color: #b4682f;
+  text-decoration: none;
+}
+
+#hand {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  top: 75px;
+  margin-left: -17px;
+  margin-top: -17px;
+  z-index: 15;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 50px;
+}
+
+/* RECENT WORK */
+#recent-work {
+  height: 275px;
+  background-color: #ffffff;
+}
+
+#recent-work p {
+  padding-top: 50px;
+}
+
+#recent-work img {
+  height: 124px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  margin: 25px auto 25px -75px;
+}
+
+/* PROCESS */
+#process {
+  height: 925px;
+  background-color: #bbb1aa;
+  position: relative;
+}
+
+#process .background img {
+  height: 925px;
+}
+
+#process .text {
+  z-index: 10;
+  width: 325px;
+  /*margin: 0 auto;*/
+  padding: 50px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -163px;
+}
+
+/* ABOUT */
+#about {
+  height: 375px;
+  background-color: #9a6d4a;
+}
+
+#about .text {
+  width: 550px;
+  margin: 0 auto;
+  padding: 50px 0;
+  position: relative;
+}
+
+#portrait {
+  width: 425px;
+  height: 281px;
+  position: absolute;
+  right: -150px;
+  bottom: -5px;
+}
+
+/* CONTACT */
+#contact {
+  height: 525px;
+  background-color: #bbb1aa;
+  margin-top: -20px;
+}
+
+#contact form {
+  padding-top: 50px;
+  margin: 20px auto 20px 150px;
+  width: 55%;
+}
+
+#contact label {
+  padding-top: 25px;
+}
+
+#contact .shadow {
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 0;
+}
+
+#contact .submit {
+  background-color: #b19c94;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.5em;
+}

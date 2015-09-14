@@ -74,7 +74,7 @@ html, body {
 /* COMPETITIVE ANALYSIS */
 #competitive-analysis {
   position: relative;
-  height: 400px;
+  height: 515px;
 }
 
 #competitive-analysis .wrapper {
@@ -92,4 +92,31 @@ html, body {
   right: 0px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ESTABLISHING EMPATHY */
+#establishing-empathy {
+  position: relative;
+  height: 400px;
+}
+
+#establishing-empathy .wrapper {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  font-size: 20px;
+}
+
+#casual-musician {
+  position: absolute;
+  max-width: 50%;
+  top: 100px;
+  left: 0px;
+}
+
+#searching-musician {
+  position: absolute;
+  max-width: 50%;
+  top: 100px;
+  right: 0px;
 }

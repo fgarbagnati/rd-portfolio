@@ -25,7 +25,7 @@ html, body {
 }
 
 .text-gray {
-  color: #7a7979;
+  color: #231f20;
 }
 
 .text-white {
@@ -35,6 +35,7 @@ html, body {
 /* HEADER */
 #header {
   position: relative;
+  height: 415px;
 }
 
 #header .nav {
@@ -68,4 +69,27 @@ html, body {
 #ss-logo {
   max-height: 250px;
   margin-top: 25px;
+}
+
+/* COMPETITIVE ANALYSIS */
+#competitive-analysis {
+  position: relative;
+  height: 400px;
+}
+
+#competitive-analysis .wrapper {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  font-size: 20px;
+}
+
+#competitive-analysis .wrapper img {
+  position: absolute;
+  max-width: 90%;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -103,61 +103,61 @@ html, body {
 #establishing-empathy .wrapper {
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 85px;
   font-size: 20px;
 }
 
 #casual-musician {
   position: absolute;
   max-width: 50%;
-  top: 100px;
+  top: 110px;
   left: 0px;
 }
 
 #searching-musician {
   position: absolute;
   max-width: 50%;
-  top: 100px;
+  top: 110px;
   right: 0px;
 }
 
 /* CONTENT STRATEGY */
 #content-strategy {
   position: relative;
-  height: 825px;
+  height: 915px;
 }
 
 #content-strategy .wrapper {
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 150px;
   font-size: 20px;
 }
 
 #head {
   position: absolute;
-  top: 100px;
+  top: 110px;
   left:50px;
   height: 160px;
 }
 
 #head2 {
   position: absolute;
-  top: 100px;
+  top: 110px;
   left: 325px;
   height: 260px;
 }
 
 #head3 {
   position: absolute;
-  top: 100px;
+  top: 110px;
   right: 50px;
   height: 290px;
 }
 
 #ss-logo2 {
   position: absolute;
-  top: 315px;
+  top: 355px;
   left: 0px;
   right: 0px;
   margin-left: auto;
@@ -165,22 +165,22 @@ html, body {
   width: 75%;
 }
 
-/* CONTENT STRATEGY */
+/* INFORMATION ARCHITECTURE */
 #information-architecture {
   position: relative;
-  height: 1325px;
+  height: 1465px;
 }
 
 #information-architecture .wrapper {
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 135px;
   font-size: 20px;
 }
 
 #sitemap {
   position: absolute;
-  top: 100px;
+  top: 110px;
   left: 0px;
   right: 0px;
   margin-left: auto;
@@ -190,10 +190,43 @@ html, body {
 
 #taxonomy {
   position: absolute;
-  top: 635px;
+  top: 675px;
   left: 0px;
   right: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+/* USER FLOW */
+#user-flow {
+  position: relative;
+  height: 1325px;
+}
+
+#user-flow .wrapper {
+  position: absolute;
+  width: 100%;
+  top: 95px;
+  font-size: 20px;
+}
+
+#flow-diagram {
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -10px;
+}
+
+#edit-profile {
+  position: absolute;
+  width: 80%;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 855px;
 }

@@ -32,6 +32,12 @@ html, body {
   color: #ffffff;
 }
 
+.shadow {
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
 /* HEADER */
 #header {
   position: relative;
@@ -201,7 +207,7 @@ html, body {
 /* USER FLOW */
 #user-flow {
   position: relative;
-  height: 1325px;
+  height: 1450px;
 }
 
 #user-flow .wrapper {
@@ -229,4 +235,63 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   top: 855px;
+}
+
+/* WIREFRAMING */
+#wireframing {
+  position: relative;
+  height: 1325px;
+}
+
+#wireframing .wrapper {
+  position: absolute;
+  width: 100%;
+  top: 95px;
+  font-size: 20px;
+}
+
+.label p {
+  position: absolute;
+  font-size: 15px;
+}
+
+.wireframing-sub-part-1 {
+  position: absolute;
+  height: 545px;
+  width: 85%;
+  top: 90px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loginlowfid {
+  position: absolute;
+  width: 30%;
+  left: 15px;
+  top: 5px;
+}
+
+#lowfid {
+  top: 325px;
+  left: 130px;
+}
+
+#loginhighfid {
+  position: absolute;
+  width: 60%;
+  right: 0px;
+}
+
+#highfid {
+  bottom: 0px;
+  right: 270px;
+}
+
+#arrow1 {
+  position: absolute;
+  width: 20%;
+  bottom: 25px;
+  left: 155px;
 }
